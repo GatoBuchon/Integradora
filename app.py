@@ -15,7 +15,7 @@ csrf=CSRFProtect()
 app.config['MYSQL_HOST']= 'localhost'
 app.config['MYSQL_USER'] = 'lobato'
 app.config['MYSQL_PASSWORD'] = 'gatito'
-app.config['MYSQL_DB'] = 'buerreras'
+app.config['MYSQL_DB'] = 'burreras'
 
 db=MySQL(app)
 app.secret_key='mysecretkey'
